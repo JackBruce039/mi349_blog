@@ -88,7 +88,7 @@
         </article>  
     </main>
     <section>
-        <h3>Sign up for my newsletter: </h3>
+        <h3>Contact Us: </h3>
         <form>
             <p>
                 <label> Name
@@ -97,11 +97,25 @@
             </p>
             <p>
                 <label> Email
-                    <input type="text" >
+                    <input type="email" >
                 </label>
             </p>
-            
-            <button>Subscribe</button>
+            <p>
+                <label> Contact Reason
+                    <select name="contact" id="reason-select"></select>
+                    <option value="">--Choose a reason--</option>
+                    <option value="hi">Just Saying Hi!</option>
+                    <option value="contractor">I'm Looking for a Contractor.</option>
+                    <option value="interview">I'm interested in an interview.</option>
+                    <option value="other">Other.</option>
+                </label>
+            </p>
+            <p>
+                <label> Extra Thoughts
+                    <textarea name="thoughts" id="thoughts-area" cols="30" rows="10"></textarea>
+                </label>
+            </p>
+            <button>Submit</button>
         </form>
     </section>
 </body>
