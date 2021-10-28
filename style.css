@@ -1,0 +1,61 @@
+html
+{
+    background: gray;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #353549;
+    border-top:10px solid cadetblue;
+    background: #aaa;
+}
+h1
+{
+    font-size: 3em;
+    margin: 0;
+}
+p
+{
+    line-height: 1.4em;
+}
+h3
+{
+    padding-left: 60px;
+}
+textarea, select
+{
+    background-color: cadetblue;
+    color:#353549;
+    border-top: 2px solid #353549;
+    border-left: 2px solid #353549;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+th, td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+table
+{
+    border-top: 2px dotted cadetblue;
+    padding-top: 5px;
+}
+#but, input
+{
+    background-color: cadetblue;
+    color:#353549;
+}
+#blog, #border
+{
+    border-top: 2px dotted cadetblue;
+}
+.blog-post
+{
+    border-bottom: 2px dotted cadetblue;
+}
+
+
