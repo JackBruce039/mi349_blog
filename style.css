@@ -53,6 +53,24 @@ table
 {
     border-top: 2px dotted cadetblue;
 }
+#header
+{
+   position: sticky;
+   top:  0;
+   background: #ccc;
+   padding-top: 1px;
+   padding-bottom:2px; 
+}
+#profile
+{
+    float: left;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .blog-post
 {
     border-bottom: 2px dotted cadetblue;
