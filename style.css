@@ -58,6 +58,7 @@ table
 #blog, #border
 {
     border-top: 2px dotted cadetblue;
+    padding: 10px;
 }
 #header
 {
