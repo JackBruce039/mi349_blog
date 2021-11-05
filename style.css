@@ -46,7 +46,7 @@ table
 }
 #label
 {
-    padding: 10px;
+    padding-bottom: 30px;
 }
 #but, input
 {
@@ -81,6 +81,7 @@ article
 {
   padding: 10px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 article:nth-of-type(1)
 {
