@@ -44,6 +44,10 @@ table
     border-top: 2px dotted cadetblue;
     padding-top: 5px;
 }
+label
+{
+    text-align: center;
+}
 #but, input
 {
     background-color: cadetblue;
